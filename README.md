@@ -1,5 +1,5 @@
 # ATPST
-
+<img src="banner.png" alt="drawing" style="width:820px;height:450px;position:centre"/>
 Android Testing Platform Setup Tool (ATPST) is a small script i wrote that semi-automated the prcoess of setting up Genymotion, frida, adb and bypassing Android Trustmanger when conducting security testing.
 
 From my knowledge, Genymotion as of the day of this creation, requires a paid account to support `rooted` devices. Only `android 12`, fro the Custom Phone has this. Which brings us to some simple preliquisites before using the script:
@@ -29,7 +29,9 @@ chmod +x atpst.sh
 ./atpst.sh
 ```
 ### Desired output
-
+![expected1](vm1.jpg)
+![expected1](vm2.jpg)
+![expected1](vm3.jpg)
 
 ## Future implementation on v2
 - List available codeshare scipts to use.
