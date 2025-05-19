@@ -43,7 +43,7 @@ chmod +x atpst.sh
 - Download Genymotions VMs automatically.
 
  ## Challenges and debbuging
-- I noticed things were working well on frida `16.7.19` untill they upgraded to 17.0.0. With this, even with the same versions of frida and frider-server, there was still a mismatch error. Frida noticed this and fixed it within hours. Which prompted for the realease of frida `17.0.1`. However i encountered a java error and did not have time to look into it. So i `hardcoded frida to use the last version 16.7.19` that was previously working well.
+- I noticed things were working well on frida `16.7.19` untill they upgraded to `17.0.0`. With this, even with the same versions of frida and frider-server, there was still a mismatch error. Frida noticed this and fixed it within hours. Which prompted for the realease of frida `17.0.1`. However i encountered a java error and did not have time to look into it. So i `hardcoded frida to use the last version 16.7.19` that was previously working well.
 
 If this gets resolved in a later version, feel free to change :
 
