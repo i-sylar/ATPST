@@ -10,6 +10,7 @@ From my knowledge, Genymotion as of the day of this creation, requires a paid ac
 - Create the 'Custom Phone' with Android 12. - Purely because it is rooted.
 - BurpSuite is installed and running - Again. This is not a fully automated tool. It just makes some work easier. Make sure burp in installed and running.
 - Export burp CA der file to an accessible location. The tool will ask you for this. Then use openssl to convert it to a pen file and copy it to the device.
+- Im my environment, i had a package name i was working with all the time. I renamed this. Consider renaming `to-be-replaced-package-name` to something of your choice or remove the function. 
 
 ## What it does
 - Launches Custom Phone VM
