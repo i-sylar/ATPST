@@ -29,9 +29,10 @@ chmod +x atpst.sh
 ./atpst.sh
 ```
 ### Desired output
-![expected1](vm1.jpg)
-![expected1](vm2.jpg)
+![expected1](vm4.jpg)
+![expected1](vm5.jpg)
 ![expected1](vm3.jpg)
+![expected1](vm6.jpg)
 
 ## Future implementation on v2
 - List available codeshare scipts to use.
