@@ -41,10 +41,11 @@ chmod +x atpst.sh
 ./atpst.sh
 ```
 ### Desired output
-![expected1](img/vm4.jpg)
-![expected1](img/vm5.jpg)
-![expected1](img/vm3.jpg)
-![expected1](img/vm6.jpg)
+![expected1](img/vm1.jpg)
+![expected2](img/vm2.jpg)
+![expected3](img/vm3.jpg)
+![expected4](img/vm4.jpg)
+![expected5](img/vm5.jpg)
 
 ## Future implementation on v3
 - Supply custom scripts.
