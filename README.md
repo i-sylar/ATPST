@@ -51,6 +51,7 @@ chmod +x atpst.sh
 ## Future implementation on v3
 - Supply custom scripts.
 - Download Genymotions VMs automatically.
+- Support for linux
 
  ## Challenges and debbuging
 - I noticed things frida related break when they release an update for the frida script and takes some time to release the same for frida-server.. When this happens, manually hardcode  the previous version of frida in the script and it will download and use that.
