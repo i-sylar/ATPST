@@ -7,6 +7,7 @@ From my knowledge, Genymotion as of the day of this creation, requires a paid ac
 ## Preliquisites
 - MacOS. I initially built this for my macOS environment meaning some brew installs here and there. This can be easily modified to suite Linux systems as well. Feel free to edit.
 - Genymotion is installed.
+- Openssl is installed.
 - Create any phone with Android 11 or 12 that is rooted.
 - BurpSuite is installed and running - Again. This is not a fully automated tool. It just makes some work easier. Make sure burp in installed and running.
 - Export burp CA der file to an accessible location. The tool will ask you for this.
