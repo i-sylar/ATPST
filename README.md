@@ -2,7 +2,7 @@
 <img src="img/banner.png" alt="drawing" style="width:820px;height:450px;position:centre"/>
 Android Testing Platform Setup Tool (ATPST) is a small script i wrote that semi-automated the prcoess of setting up Genymotion, frida, adb and bypassing Android Trustmanger when conducting security testing.
 
-From my knowledge, Genymotion as of the day of this creation, requires a paid account to support `rooted` devices. Only `android  api 11`, are rooted. 
+From my knowledge, Genymotion as of the day of this creation, requires a paid account to support alot of `rooted` devices. Only `android  api 11`, is rooted in the free version. 
 
 ## Preliquisites
 - MacOS. I initially built this for my macOS environment meaning some brew installs here and there. This can be easily modified to suite Linux systems as well. Feel free to edit.
