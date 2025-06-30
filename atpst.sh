@@ -1400,10 +1400,10 @@ print_info "Listing available packages on the device..."
 packages=$(adb shell pm list packages | cut -d: -f2)
 
 # Filter packages containing "to-be-replaced-package-name"
-theapp_packages=$(echo "$packages" | grep -i "workpay")
+theapp_packages=$(echo "$packages" | grep -i "my_package_name_here")
 
 if [ -z "$theapp_packages" ]; then
-    print_info "No packages containing 'workpay' found. Listing all packages instead."
+    print_info "No packages containing 'my_package_name_here' found. Listing all packages instead."
     # List all packages and ask user to select
     package_array=()
     i=1
@@ -1413,7 +1413,7 @@ if [ -z "$theapp_packages" ]; then
         ((i++))
     done <<< "$packages"
 else
-    print_info "Found packages containing 'workpay':"
+    print_info "Found packages containing 'my_package_name_here':"
     package_array=()
     i=1
     while IFS= read -r line; do
