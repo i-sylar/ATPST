@@ -932,7 +932,7 @@ start_custom_phone_vm() {
     fi
     
     # VM was just started, wait for it to boot and connect to ADB
-    print_info "VM started successfully. Wai"
+    print_info "VM started successfully."
     # Initial delay to let VM start booting
     #sleep 10
     
